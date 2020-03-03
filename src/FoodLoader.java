@@ -83,4 +83,9 @@ public class FoodLoader{
 		return foodList; // return an initialized food array. 
 	}
 
+	public static void main(String[] args){
+		loadFile("BakedGoods.txt");
+
+	}
+
 }
