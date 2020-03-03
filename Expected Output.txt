@@ -1,0 +1,21 @@
+Sample Output. 
+
+Name: Biscuit baked Calories: 97 Protein: 2 Carbs: 14 Fat: 4
+Name: Biscuit homemade Calories: 212 Protein: 4 Carbs: 27 Fat: 10
+Name: Biscuit refrigerated dough baked Calories: 93 Protein: 2 Carbs: 13 Fat: 4
+Name: Croissant butter Calories: 231 Protein: 5 Carbs: 26 Fat: 12
+Name: Muffin blueberry from mix prepared Calories: 149 Protein: 3 Carbs: 24 Fat: 5
+Name: Muffin bran from mix prepared Calories: 159 Protein: 4 Carbs: 27 Fat: 5
+Name: Muffin bran homemade Calories: 199 Protein: 4 Carbs: 32 Fat: 8
+Name: Muffin carrot commercial Calories: 344 Protein: 7 Carbs: 49 Fat: 14
+Name: Muffin chocolate chip commercial Calories: 366 Protein: 8 Carbs: 53 Fat: 14
+Name: Muffin fruit commercial Calories: 313 Protein: 6 Carbs: 54 Fat: 7
+Name: Muffin fruit homemade Calories: 162 Protein: 4 Carbs: 23 Fat: 6
+Name: Breakfast bar Oatmeal to GoTM Calories: 197 Protein: 3 Carbs: 33 Fat: 5
+Name: Cereal bar fruit filled Nutri-GrainTM Calories: 135 Protein: 2 Carbs: 26 Fat: 3
+Name: Chocolate chip commercial Calories: 98 Protein: 1 Carbs: 13 Fat: 5
+Name: Chocolate chip homemade Calories: 156 Protein: 2 Carbs: 19 Fat: 9
+Name: Chocolate chip refrigerated dough baked Calories: 118 Protein: 1 Carbs: 16 Fat: 5
+Name: Chocolate coated marshmallow Calories: 129 Protein: 1 Carbs: 21 Fat: 4
+Name: Chocolate sandwich Calories: 93 Protein: 1 Carbs: 14 Fat: 4
+Name: Coconut macaroons homemade Calories: 194 Protein: 2 Carbs: 35 Fat: 6
