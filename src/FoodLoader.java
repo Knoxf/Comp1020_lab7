@@ -18,14 +18,24 @@ public class FoodLoader{
 			//Apple,120,2,2,Apple Junk,Redness 
 			// cache data incoming
 			String name = scan.next();
+			scan.next();
+			int weight = scan.nextInt();
 			int calories = scan.nextInt();
-			int cost = scan.nextInt();
+			scan.next();
+			int protein = scan.nextInt();
+			int carbs = scan.nextInt();
 
+
+			int sugar = scan.nextInt();
+			double fibre = scan.nextDouble();
+			int fat = scan.nextInt();
+//String newName,int weight, int newCalories,int protein, int carbs, int sugar, double fibre, int fat
 			// -- Ingredients -- (silver)
 			// check number of ingredients, needed for the loop
-			int numOfIngredients = scan.nextInt();
+			//int numOfIngredients = scan.nextInt();
 
 			// list of ingredients
+			/*
 			Ingredient[] ings = new Ingredient[numOfIngredients];
 			for(int i = 0; i < numOfIngredients; i++){
 				String ingName = scan.next();
@@ -33,9 +43,11 @@ public class FoodLoader{
 				ings[i] = new Ingredient(ingName,ingAmount);
 			}
 
-			// Create the food item
-			foodItem = new Food(name, calories, cost, ings);
+			 */
 
+			// Create the food item
+			foodItem = new Food(name,weight, calories, protein,carbs,sugar,fibre,fat);
+			//String newName,int weight, int newCalories,int protein, int carbs, int sugar, double fibre, int fat
 
 		}catch(Exception e){
 			System.out.println(e.toString());
@@ -46,7 +58,8 @@ public class FoodLoader{
 	}
 
 	// given a specified file, load it and parse each line into a Food[] type object. Be sure to handle
-	// any exceptions. 
+	// any exceptions.
+
 	public static Food[] loadFile(String fileName){
 
 		// Return data
@@ -58,6 +71,9 @@ public class FoodLoader{
 			FileReader fileReader = new FileReader(fileName);
 			BufferedReader br = new BufferedReader(fileReader);
 
+			for(int i=0;i<3;i++){
+				br.readLine();
+			}
 			// read in strings, use parseString to turn into foods
 			// Use an oversized array for now
 			String line = br.readLine();
@@ -83,9 +99,5 @@ public class FoodLoader{
 		return foodList; // return an initialized food array. 
 	}
 
-	public static void main(String[] args){
-		loadFile("BakedGoods.txt");
-
-	}
 
 }
